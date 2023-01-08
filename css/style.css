@@ -2042,12 +2042,18 @@ textarea.input {
   .main-goods__media-ibg:nth-child(even) span {
     max-width: 100%;
     bottom: -1.125rem;
-    left: 43%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
   }
 
   .main-goods__media-ibg:nth-child(odd) span {
     bottom: -1.125rem;
-    right: 45.5%;
+    right: 50%;
+    -webkit-transform: translate(50%, 0);
+        -ms-transform: translate(50%, 0);
+            transform: translate(50%, 0);
   }
 
   .main-goods__title {
