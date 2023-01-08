@@ -2221,6 +2221,30 @@ textarea.input {
   }
 }
 
+@media (max-width: 26.5625em) {
+  .subscribe__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 0.9375rem;
+  }
+
+  .subscribe__input {
+    padding: 0.6875rem 1.6875rem;
+  }
+
+  .subscribe__button {
+    position: relative;
+  }
+}
+
 @media (max-width: 23.75em) {
   .main__bg img {
     -o-object-position: -650px 0px;
