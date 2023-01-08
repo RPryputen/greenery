@@ -1182,7 +1182,7 @@ textarea.input {
   padding: 0.375rem 0.3125rem;
 }
 
-.products__title:focus {
+.products ._tab-active {
   border: 2px solid #3e5860 !important;
   color: #264a51;
 }
@@ -2004,9 +2004,11 @@ textarea.input {
     background-color: rgba(255, 255, 255, 0.5);
   }
 
-  .main__bg {
-    -o-object-fit: fill;
-       object-fit: fill;
+  .main__bg img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 75%;
+       object-position: 75%;
   }
 
   .tippy-main {
@@ -2082,13 +2084,6 @@ textarea.input {
 
   .main-goods__text:not(:last-child) {
     margin-bottom: 1rem;
-  }
-}
-
-@media (max-width: 37.5em) {
-  .main__bg img {
-    -o-object-fit: cover;
-       object-fit: cover;
   }
 }
 
@@ -2262,13 +2257,6 @@ textarea.input {
 
   .subscribe__button {
     position: relative;
-  }
-}
-
-@media (max-width: 23.75em) {
-  .main__bg img {
-    -o-object-position: -650px 0px;
-       object-position: -650px 0px;
   }
 }
 
