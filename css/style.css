@@ -1845,6 +1845,27 @@ textarea.input {
   }
 }
 
+@media (max-width: 70em) {
+  .product__label--discount {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+
+  .product__label--new {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+
+  .product__label--sold-out {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-bottom: 0.875rem;
+  }
+}
+
 @media (max-width: 60em) {
   .footer__container {
     -ms-grid-columns: (1fr)[2];
